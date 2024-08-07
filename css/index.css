@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #333;
+}
+h2{
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 30px;
+}
+.basic-information{
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+.basic-information div{
+    margin:  0 2% 5%;
+}
+.basic-information img{
+    width: 100%;
+}
+.introduction{
+    font-size: 22px;
+}
+.introduction P{
+    font-weight: 700;
+    margin: 2% 0;
+}
+.content{
+    margin: 2%;
+}
+.content p{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 2%;
+}
+.content span{
+    font-size: 20px;
+}
+.wrap{
+    width: 100%;
+    max-width: 1240px;
+    margin: auto;
+}
+.wrap .item{
+    margin: 10px;
+    padding: 10px;
+}
+.wrap .item .title{
+    font-size: 20px;
+}
+.wrap .item p{
+    margin: 5% 0;
+    font-size: 20px;
+}
+.wrap img{
+    width: 100%;
+}
+@media screen and (min-width: 768px) {
+    h2{
+        font-size: 40PX;
+    }
+    .basic-information{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .introduction{
+        font-size: 28px;
+    }
+}
+@media screen and (min-width:1024px) {
+    h2{
+        font-size: 45PX;
+    }
+    .introduction{
+        font-size: 35px;
+    }
+    .content{
+        font-size: 25px;
+    }
+    .content p{
+        margin: 1% 0;
+    }
+    .wrap .item .title{
+        margin: 0 2%;
+        font-size: 25px;text-align: center;
+    }
+    .item a{
+        display: flex;
+        margin-top: 2%;
+    }
+    .item .img{
+        width: 50%;
+        margin: 0 2%;
+    }
+    .illustrate{
+        width: 50%;
+        margin: auto;
+        font-size: 30px;
+    }    
+}
+@media screen and (min-width:1280px) {
+    .introduction{
+        font-size: 40px;
+    }
+    .content{
+        font-size: 30px;
+    }
+    .content p{
+        font-size: 35px;
+    }
+    .wrap .item .title{
+        font-size: 35px;
+    }
+    .illustrate{
+        width: 50%;
+        margin: auto;
+        font-size: 35px;
+    }    
+}
