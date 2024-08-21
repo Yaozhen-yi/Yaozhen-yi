@@ -16,36 +16,33 @@ h2{
 }
 .basic-information{
     width: 100%;
-    justify-content: center;
-    margin: auto;
-}
-.basic-information div{
-    margin:  0 2% 5%;
+    display: flex;
 }
 .basic-information img{
-    width: 100%;
+    margin: 15% 4%;
+    width: 150px;
+    border-radius: 50%;
 }
 .introduction{
+    margin: 0 4%;
     font-size: 22px;
 }
-.introduction P{
-    font-weight: 700;
-    margin: 2% 0;
-}
+
 .content{
-    margin: 2%;
+    margin: 3% 5%;
 }
 .content p{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 700;
     margin-top: 2%;
+    margin-bottom: 1%;
+    text-align: center;
 }
 .content span{
     font-size: 20px;
 }
 .wrap{
     width: 100%;
-    max-width: 1240px;
     margin: auto;
 }
 .wrap .item{
@@ -61,28 +58,44 @@ h2{
 }
 .wrap img{
     width: 100%;
+    margin: 3% 0;
+    border: 0.5px solid #ccc;
 }
 @media screen and (min-width: 768px) {
     h2{
-        font-size: 40PX;
+        font-size: 40px;
     }
-    .basic-information{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .basic-information img{
+        margin: 7% 10%;
     }
     .introduction{
         font-size: 28px;
+        margin-right: 3%;
+    }
+    .content p{
+        font-size: 35px;
+    }
+    .content span{
+        font-size: 25px;
+    }
+    .wrap .item .title{
+        font-size: 25px;
+    }
+    .wrap .illustrate{
+        font-size: 20px;
     }
 }
 @media screen and (min-width:1024px) {
-    h2{
-        font-size: 45PX;
+    .basic-information img{
+        margin: 5% 15%;
     }
     .introduction{
-        font-size: 35px;
+        font-size: 30px;
     }
     .content{
+        margin: 0% 5%;
+    }
+    .conten span{
         font-size: 25px;
     }
     .content p{
@@ -100,11 +113,11 @@ h2{
         width: 50%;
         margin: 0 2%;
     }
-    .illustrate{
+    .wrap .illustrate{
+        font-size: 30px;
         width: 50%;
         margin: auto;
-        font-size: 30px;
-    }    
+    }   
 }
 @media screen and (min-width:1280px) {
     .introduction{
